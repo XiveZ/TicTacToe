@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!--    app:context=".MainActivity"-->
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/bt1"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="bt1" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt2"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt3"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt4"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt5"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt6"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt7"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt8"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:onClick="onClick"
+
+            android:id="@+id/bt9"
+            style="@style/Button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </TableRow>
+
+</TableLayout>
